@@ -1,0 +1,7 @@
+:is(:root, :root[data-theme='neutral']) {
+	--color-app: #ffffff;
+}
+
+:root[data-theme='dark'] {
+	--color-app: #000000;
+}
