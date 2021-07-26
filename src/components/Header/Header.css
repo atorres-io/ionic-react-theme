@@ -1,0 +1,16 @@
+.at-background {
+	--background: var(--color-header);
+}
+
+.at-no-shadow::after {
+	background-image: none;
+}
+
+.at-title {
+	color: var(--color-title);
+	user-select: none;
+}
+
+.at-button {
+	color: var(--color-button-menu);
+}
