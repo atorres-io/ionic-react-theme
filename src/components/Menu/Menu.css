@@ -1,0 +1,22 @@
+.at-menu {
+	--background: var(--color-menu);
+}
+
+.at-no-shadow::after {
+	background-image: none;
+}
+
+.at-settings {
+	color: var(--color-settings);
+}
+
+.at-subtitle h2 {
+	color: var(--color-font-subtitle);
+	font-size: 16px;
+	margin-top: 0;
+	padding-inline: 20px;
+}
+
+.at-grid-padding {
+	padding: 1rem 20px;
+}
