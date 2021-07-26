@@ -1,0 +1,107 @@
+.at-theme-selector {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	appearance: none;
+	width: 35px;
+	height: 35px;
+	padding: 0;
+	border-radius: 50%;
+	background-color: transparent;
+	border: solid 2px transparent;
+	opacity: 0.5;
+}
+
+.at-theme-selector.active {
+	border-color: var(--color-border);
+	opacity: 1;
+}
+
+.at-theme-selector span {
+	display: block;
+	width: 75%;
+	height: 75%;
+	border-radius: 50%;
+	user-select: none;
+	pointer-events: none;
+}
+
+.light-purple {
+	background: conic-gradient(from 0 at 50% 200%, #8739fa, #ffffff);
+}
+
+.light-rose {
+	background: conic-gradient(from 0 at 50% 200%, #d763cd, #ffffff);
+}
+
+.light-green {
+	background: conic-gradient(from 0 at 50% 200%, #4ead68, #ffffff);
+}
+
+.light-golden {
+	background: conic-gradient(from 0 at 50% 200%, #888464, #ffffff);
+}
+
+.light-blue {
+	background: conic-gradient(from 0 at 50% 200%, #3986fa, #ffffff);
+}
+
+.light-red {
+	background: conic-gradient(from 0 at 50% 200%, #e23655, #ffffff);
+}
+
+.light-meat {
+	background: conic-gradient(from 0 at 50% 200%, #b1767f, #ffffff);
+}
+
+.light-orange {
+	background: conic-gradient(from 0 at 50% 200%, #f85b38, #ffffff);
+}
+
+.light-cyan {
+	background: conic-gradient(from 0 at 50% 200%, #2badad, #ffffff);
+}
+
+.light-gray {
+	background: conic-gradient(from 0 at 50% 200%, #9496a2, #ffffff);
+}
+
+.dark-purple {
+	background: conic-gradient(from 0 at 50% 200%, #8739fa, #000000);
+}
+
+.dark-rose {
+	background: conic-gradient(from 0 at 50% 200%, #d763cd, #000000);
+}
+
+.dark-green {
+	background: conic-gradient(from 0 at 50% 200%, #4ead68, #000000);
+}
+
+.dark-golden {
+	background: conic-gradient(from 0 at 50% 200%, #888464, #000000);
+}
+
+.dark-blue {
+	background: conic-gradient(from 0 at 50% 200%, #3986fa, #000000);
+}
+
+.dark-red {
+	background: conic-gradient(from 0 at 50% 200%, #e23655, #000000);
+}
+
+.dark-meat {
+	background: conic-gradient(from 0 at 50% 200%, #b1767f, #000000);
+}
+
+.dark-orange {
+	background: conic-gradient(from 0 at 50% 200%, #f85b38, #000000);
+}
+
+.dark-cyan {
+	background: conic-gradient(from 0 at 50% 200%, #2badad, #000000);
+}
+
+.dark-gray {
+	background: conic-gradient(from 0 at 50% 200%, #9496a2, #000000);
+}
